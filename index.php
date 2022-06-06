@@ -4,8 +4,6 @@ $paragrafo = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi hic 
 $censura = $_GET['censura'];
 
 $paragrafo_censurato = '';
-
-
 ?>
 
 
@@ -33,7 +31,7 @@ $paragrafo_censurato = '';
 
   <h1>
     Paragrafo censurato con la parola: <?php echo $censura?> <br>
-    <?php echo $paragrafo_censurato = str_replace($censura, "viva il php", $paragrafo)?>
+    <?php echo $paragrafo_censurato = str_replace($censura, "***", $paragrafo)?>
   </h1>
 
   <h1>
